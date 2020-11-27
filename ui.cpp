@@ -19,6 +19,7 @@ void UI::run()
             break;
         }
         std::cout <<"Oh no! You entered invalid input.\nDo you want to play? y/n\n";
+        std::getline(std::cin, input);
     }
     while (true) {
         AnimalNode * current = this->root;

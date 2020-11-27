@@ -4,7 +4,7 @@
 
 AnimalNode * initialise()
 {
-    std::string initialQuestion = "is it a mammalian? ";
+    std::string initialQuestion = "is it a mammal? ";
     std::string yesAnswer = "dog";
     std::string noAnswer = "chicken";
     AnimalNode * root = new AnimalNode (initialQuestion, true);
